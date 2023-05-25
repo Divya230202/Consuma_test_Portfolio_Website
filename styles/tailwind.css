@@ -1,0 +1,725 @@
+@import url('https://fonts.googleapis.com/css?family=Manrope');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .profile-image {
+    position: absolute;
+    width: 236px;
+    height: 236px;
+    left: 70px;
+    top: 66px;
+    background-image: url(/Divya.jpg);
+    background-size: cover;
+    border-radius: 50%; /* Make the image circular */
+  }
+
+  .profile-name {
+    position: absolute;
+    width: 319px;
+    height: 87px;
+    left: 380px;
+    top: 105px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 87px;
+    color: #000000;
+  }
+
+  .profile-title {
+    position: absolute;
+    width: 33px;
+    height: 22px;
+    left: 380px;
+    top: 202px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .profile-line{
+    position: absolute;
+    width: 990px;
+    height: 0px;
+    left: 380px;
+    top: 233px;
+    border: 1px solid #000000;
+  }
+
+  .profile-about{
+    position: absolute;
+    width: 970px;
+    height: 44px;
+    left: 380px;
+    top: 244px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .contact-box:hover,
+  .Email-box:hover,
+  .LinkedIn-box:hover,
+  .Github-box:hover {
+    transform: scale(1.02);
+  }
+  
+
+  .contact-box {
+    position: absolute;
+    width: 310px;
+    height: 64px;
+    left: 70px;
+    top: 368px;
+    background-color: #003CC0;
+    border-radius: 4px;
+  }
+
+  .contact-txt {
+    position: absolute;
+    width: 246px;
+    height: 32px;
+    left: 102px;
+    top: 384px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+  }
+
+  .email-symbol {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 680px; 
+    top: 54.5%; 
+  }
+
+  .link-symbol {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 1000px; 
+    top: 54.5%; 
+  }
+
+  .git-symbol {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 1320px; 
+    top: 54.5%; 
+  }
+
+  .Email-box {
+    position: absolute;
+    width: 310px;
+    height: 64px;
+    left: 400px;
+    top: 368px;
+    background: #C58813;
+    border-radius: 4px;
+  }
+
+  .Email-txt {
+    position: absolute;
+    width: 246px;
+    height: 32px;
+    left: 432px;
+    top: 384px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+  }
+
+  .LinkedIn-box {
+    position: absolute;
+    width: 310px;
+    height: 64px;
+    left: 730px;
+    top: 368px;
+    background: #F448AE;
+    border-radius: 4px;
+  }
+
+  .LinkedIn-txt {
+    position: absolute;
+    width: 246px;
+    height: 32px;
+    left: 762px;
+    top: 384px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+  }
+
+  .Github-box {
+    position: absolute;
+    width: 310px;
+    height: 64px;
+    left: 1061px;
+    top: 368px;
+    background: #00C06F;
+    border-radius: 4px;
+  }
+
+  .Github-txt {
+    position: absolute;
+    width: 246px;
+    height: 32px;
+    left: 1092px;
+    top: 384px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+  }
+
+  .exp{
+    position: absolute;
+    width: 189px;
+    height: 49px;
+    left: 70px;
+    top: 472px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+  }
+
+  .exp-line{
+    position: absolute;
+    width: 509px;
+    height: 0px;
+    left: 83px;
+    top: 536px;
+    border: 1px solid #000000;
+  }
+
+  .exp-dot1{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 68px;
+    top: 528px;
+    border-radius: 50%;
+    background: black;
+  }
+
+  .exp-dot2{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 331px;
+    top: 528px;
+    border-radius: 50%;
+    background: #000000;
+  }
+
+  .exp-dot3{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 584px;
+    top: 528px;
+    border-radius: 50%;
+    background-color: black;
+  }
+
+  .exp-dot1:hover,
+  .exp-dot2:hover,
+  .exp-dot3:hover {
+    transform: scale(1.2);
+  }
+
+  .exp-txt1{
+    position: absolute;
+    width: 75px;
+    height: 33px;
+    left: 70px;
+    top: 551px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+  }
+
+  .exp-txt2{
+    position: absolute;
+    width: 68px;
+    height: 33px;
+    left: 305px;
+    top: 551px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .exp-txt3{
+    position: absolute;
+    width: 77px;
+    height: 33px;
+    left: 523px;
+    top: 551px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    color: #000000;
+  }
+
+  .exp-txt1:hover,
+  .exp-txt2:hover,
+  .exp-txt3:hover{
+    font-weight: 600;
+  }
+
+
+  .skills{
+    position: absolute;
+    width: 88px;
+    height: 49px;
+    left: 730px;
+    top: 480px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+  }
+
+  .hobbies{
+    position: absolute;
+    width: 140px;
+    height: 49px;
+    left: 70px;
+    top: 735px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+  }
+
+  .hob1-box{
+    position: absolute;
+    width: 530px;
+    height: 40px;
+    left: 70px;
+    top: 792px;
+    background: #003CC0;
+    border-radius: 4px;
+  }
+
+  .hob1-txt{
+    position: absolute;
+    width: 54px;
+    height: 22px;
+    left: 82px;
+    top: 801px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+
+  .hob2-box{
+    position: absolute;
+    width: 530px;
+    height: 40px;
+    left: 70px;
+    top: 848px;
+    background: #003CC0;
+    border-radius: 4px;
+  }
+
+  .hob2-txt{
+    position: absolute;
+    width: 54px;
+    height: 22px;
+    left: 82px;
+    top: 857px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+  }
+
+
+  .lang1-box{
+    position: absolute;
+    width: 530px;
+    height: 40px;
+    left: 731px;
+    top: 792px;
+    background: #F448AE;
+    border-radius: 4px;
+  }
+
+  .lang1-txt{
+    position: absolute;
+    width: 54px;
+    height: 22px;
+    left: 743px;
+    top: 801px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+
+  .lang2-box{
+    position: absolute;
+    width: 530px;
+    height: 40px;
+    left: 731px;
+    top: 848px;
+    background: #F448AE;
+    border-radius: 4px;
+  }
+
+  .lang2-txt{
+    position: absolute;
+    width: 65px;
+    height: 22px;
+    left: 743px;
+    top: 857px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+
+  .add-skill-box{
+    position: absolute;
+    width: 529px;
+    height: 40px;
+    left: 71px;
+    top: 904px;
+    background: linear-gradient(92.42deg, #003CC0 10.68%, #07CBFD 86.41%);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+  }
+
+  .add-skill-symbol{
+    position: absolute;
+    width: 120px;
+    height: 22px;
+    left: 270px;
+    top: 913px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+
+  .add-skill-txt{
+    position: absolute;
+    width: 529px;
+    height: 22px;
+    left: 71px;
+    top: 960px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    background: #003CC0;
+    
+  }
+
+  .language{
+    position: absolute;
+    width: 168px;
+    height: 49px;
+    left: 730px;
+    top: 735px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    
+    color: #000000;
+  }
+
+  .add-language-box{
+    position: absolute;
+    width: 529px;
+    height: 40px;
+    left: 732px;
+    top: 904px;
+    background: linear-gradient(92.42deg, #F448AE 10.68%, #F487C8 86.41%);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+  }
+
+  .add-language-symbol{
+    position: absolute;
+    width: 120px;
+    height: 22px;
+    left: 939px;
+    top: 913px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+
+  .add-language-txt{
+    position: absolute;
+    width: 529px;
+    height: 22px;
+    left: 732px;
+    top: 960px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    background: #F448AE;
+  }
+
+  .s1{
+    position: absolute;
+    width: 39px;
+    height: 22px;
+    left: 730px;
+    top: 538px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .s1-box{
+    position: absolute;
+    width: 220px;
+    height: 16px;
+    left: 730px;
+    top: 560px;
+    background: #E3E1E1;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .s1-fill{
+    position: absolute;
+    width: 160px;
+    height: 16px;
+    left: 730px;
+    top: 560px;
+    background: linear-gradient(92.42deg, #00C06F 10.68%, #07CBFD 86.41%);
+    border-radius: 4px 0px 0px 4px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  .s2{
+    position: absolute;
+    width: 200px;
+    height: 22px;
+    left: 1040px;
+    top: 538px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+  }
+
+  .s2-box{
+    position: absolute;
+    width: 220px;
+    height: 16px;
+    left: 1040px;
+    top: 560px;
+    
+    background: #E3E1E1;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .s2-fill{
+    position: absolute;
+    width: 190px;
+    height: 16px;
+    left: 1040px;
+    top: 560px;
+    
+    background: linear-gradient(92.42deg, #00C06F 10.68%, #07CBFD 86.41%);
+    border-radius: 4px 0px 0px 4px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  .s3{
+    position: absolute;
+    width: 42px;
+    height: 22px;
+    left: 730px;
+    top: 586px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+  }
+
+  .s3-box{
+    position: absolute;
+    width: 220px;
+    height: 16px;
+    left: 730px;
+    top: 608px;
+    
+    background: #E3E1E1;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .s3-fill{
+    position: absolute;
+    width: 80px;
+    height: 16px;
+    left: 730px;
+    top: 608px;
+    
+    background: linear-gradient(92.42deg, #00C06F 10.68%, #07CBFD 86.41%);
+    border-radius: 4px 0px 0px 4px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  .s4{
+    position: absolute;
+    width: 42px;
+    height: 22px;
+    left: 1040px;
+    top: 586px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+  }
+
+  .s4-box{
+    position: absolute;
+    width: 220px;
+    height: 16px;
+    left: 1040px;
+    top: 608px;
+    
+    background: #E3E1E1;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .s4-fill{
+    position: absolute;
+    width: 220px;
+    height: 16px;
+    left: 1040px;
+    top: 608px;
+    
+    background: linear-gradient(92.42deg, #00C06F 10.68%, #07CBFD 86.41%);
+    border-radius: 4px 0px 0px 4px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  .hd1{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 560px; 
+    top: 800px 
+  }
+
+  .hd2 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 560px; 
+    top: 857px; 
+  }
+
+  .ld1 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 1220px; 
+    top: 800px; 
+  }
+
+  .ld2 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 1220px; 
+    top: 857px;
+  }
+
+  
+
+}
